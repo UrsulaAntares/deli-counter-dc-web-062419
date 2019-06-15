@@ -14,8 +14,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     puts "The line is currently: "
-    combo = katz_deli.each_with_index { |name, place| print "#{place+1}. #{name} "}
-    puts combo
+    wordy_array = []
+    katz_deli.each_with_index { |name, place| wordy_array.push "#{place+1}. #{name} "}
+    puts wordy_array
   end
 end
 
