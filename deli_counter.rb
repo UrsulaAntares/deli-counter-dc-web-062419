@@ -14,6 +14,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else  
     katz_deli.each_with_index { |name, place| combo= "#{place+1}. #{name} "}
+    puts "The line is currently: #{combo}"
   end
 end
 
