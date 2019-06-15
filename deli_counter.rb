@@ -1,6 +1,7 @@
 # Write your code here.
 
 katz_deli = []
+katz_deli = ["Ursula", "Tom", "Matt"]
 
 def take_a_number(katz_deli, name)
   puts name + (katz_deli.length + 1)
