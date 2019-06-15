@@ -17,3 +17,6 @@ def line(katz_deli)
     katz_deli.each_with_index { |name, place| print "#{place+1}. #{name}"}
   end
 end
+
+
+line(katz_deli)
