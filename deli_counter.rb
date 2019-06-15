@@ -15,7 +15,7 @@ def line(katz_deli)
   else
     wordy_array = []
     katz_deli.each_with_index { |name, place| wordy_array.push "#{place+1}. #{name} "}
-    puts "The line is currently: #{wordy_array.each {|ticket| print ticket}}"
+    puts "The line is currently: #{wordy_array.each {|ticket| ticket}}"
   end
 end
 
