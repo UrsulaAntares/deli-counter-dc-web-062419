@@ -4,8 +4,8 @@ katz_deli = []
 katz_deli = ["Ursula", "Tom", "Matt"]
 
 def take_a_number(katz_deli, name)
-  puts name + (katz_deli.length + 1)
-  katz_deli
+  puts "Welcome, #{name}. You are number #{katz_deli.count + 1} in line."
+  
 end
 
 
@@ -20,4 +20,5 @@ def line(katz_deli)
 end
 
 
-line(katz_deli)
+#line(katz_deli)
+
