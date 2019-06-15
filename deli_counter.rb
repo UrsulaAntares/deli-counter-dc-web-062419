@@ -13,10 +13,9 @@ def line(katz_deli)
   if katz_deli.count == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
     wordy_array = []
     katz_deli.each_with_index { |name, place| wordy_array.push "#{place+1}. #{name} "}
-    puts wordy_array
+    puts "The line is currently: " + wordy_array
   end
 end
 
